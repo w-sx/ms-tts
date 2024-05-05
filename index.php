@@ -8,7 +8,7 @@ error_reporting(E_ALL | E_STRICT);
 //subscription infomation
 $key = ''; //Default subscription key
 $region = ''; //Default subscription region
-require('./subscription.php'); //this file can define $key and $region
+//require('./subscription.php'); //this file can define $key and $region
 
 //set param
 if (isset($_GET['type'])) $data_type = $_GET['type'];
